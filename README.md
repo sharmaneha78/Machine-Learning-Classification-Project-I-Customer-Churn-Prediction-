@@ -91,13 +91,13 @@ The dataset contains 19 features related to customer profile, usage patterns, re
 
 ### Confusion Matrix
 [[1870 13]
-[ 44 325]]
+-[ 44 325]]
 
 ### Classification Report
-Accuracy: 0.9746
-Precision (Churn Class): 0.96
-Recall (Churn Class): 0.88
-F1-Score: 0.92
+- Accuracy: 0.9746
+- Precision (Churn Class): 0.96
+- Recall (Churn Class): 0.88
+- F1-Score: 0.92
 
 ---
 
@@ -158,4 +158,4 @@ Low service score | Improve service & monitor feedback trends |
 | Version Control | Git & GitHub                         |
 
 👩‍💻 Project By: Neha Sharma
-Machine Learning & Data Science Enthusiast
+- Machine Learning & Data Science Enthusiast
