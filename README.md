@@ -90,8 +90,8 @@ The dataset contains 19 features related to customer profile, usage patterns, re
 | **XGBoost (Best)** | **97.46%** |
 
 ### Confusion Matrix
-**[[1870 13]**
-**[ 44 325]]**
+*[[1870 13]*
+*[ 44 325]]*
 
 ### Classification Report
 - Accuracy: 0.9746
@@ -157,5 +157,5 @@ Low service score | Improve service & monitor feedback trends |
 | IDE             | Jupyter Notebook                     |
 | Version Control | Git & GitHub                         |
 
-👩‍💻 **Project By: Neha Sharma**
-**Machine Learning & Data Science Enthusiast**
+👩‍💻 **Project By**: Neha Sharma
+*Machine Learning & Data Science Enthusiast*
