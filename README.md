@@ -90,3 +90,72 @@ The dataset contains 19 features related to customer profile, usage patterns, re
 | **XGBoost (Best)** | **97.46%** |
 
 ### Confusion Matrix
+[[1870 13]
+[ 44 325]]
+
+### Classification Report
+Accuracy: 0.9746
+Precision (Churn Class): 0.96
+Recall (Churn Class): 0.88
+F1-Score: 0.92
+
+---
+
+## 🏆 Best Model: XGBoost Classifier
+
+📌 Reasons for selection:
+- Highest accuracy among tested models
+- Best precision-recall balance
+- Excellent performance on minority churn class
+
+### Feature Importance
+Most important predictors of churn:
+- Tenure
+- Revenue Per Month
+- Complaints Last Year
+- Account Segment
+- Payment Method
+- Service Score
+
+---
+
+## 🧾 Business Recommendations
+
+| Insight | Actionable Recommendation |
+|---------|---------------------------|
+Low-tenure customers churn more | Create onboarding engagement & reward programs |
+High complaints rate | Improve customer support response system |
+Low revenue customers churn | Provide offers, bundled plans, loyalty benefits |
+Wallet / UPI users churn | Encourage auto-payment with cashback |
+Economy segment churn | Personalized retention campaigns |
+Low service score | Improve service & monitor feedback trends |
+
+---
+
+## 🏁 Conclusion
+
+- Customer churn prediction helps businesses identify at-risk customers early.
+- **XGBoost achieved 97.46% accuracy**, which is suitable for production deployment.
+- Key churn drivers were identified, allowing strategic decision-making.
+- Implementing recommended actions can significantly reduce churn and increase revenue.
+
+---
+
+## 🚀 Future Scope
+- Model deployment using **Flask / FastAPI**
+- Integration with live dashboards
+- Customer segmentation using clustering
+- NLP sentiment analysis on feedback text
+
+---
+## Teck Stack
+| Category        | Tools                                |
+| --------------- | ------------------------------------ |
+| Language        | Python                               |
+| Libraries       | Pandas, NumPy, Scikit-learn, XGBoost |
+| Visualization   | Matplotlib, Seaborn                  |
+| IDE             | Jupyter Notebook                     |
+| Version Control | Git & GitHub                         |
+
+👩‍💻 Project By: Neha Sharma
+Machine Learning & Data Science Enthusiast
